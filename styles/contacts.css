@@ -1,0 +1,37 @@
+#contact .container {
+    margin: 0 auto;
+}   
+
+#contact {
+    width: 100%;
+}
+
+#map {
+    margin: 2rem 0;
+}
+
+.own-contacts {
+    display: flex;
+    justify-content: space-between;
+}
+.phone-numbers, .email-address{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone, .mail {
+    margin-right: 1rem;
+    font-size: large;
+}
+
+.go-to-main {
+    margin-bottom: 4em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.go-to-main a {
+    font-size: 20px;
+}
